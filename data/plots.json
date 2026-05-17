@@ -1,0 +1,38 @@
+[
+  {
+    "plot_id": "PLOT_001",
+    "name": "Arkadia",
+    "latitude": 37.651492,
+    "longitude": 22.366139,
+    "area_m2": 250000,
+    "assumed_price_eur": 1000000,
+    "enmap_folder": "arkadia_20241024_mosaic"
+  },
+  {
+    "plot_id": "PLOT_002",
+    "name": "Magnisia",
+    "latitude": 39.174176,
+    "longitude": 22.766325,
+    "area_m2": 250000,
+    "assumed_price_eur": 1000000,
+    "enmap_folder": "magnisia_20241024_mosaic"
+  },
+  {
+    "plot_id": "PLOT_003",
+    "name": "Arkadia 2",
+    "latitude": 37.324456,
+    "longitude": 22.143828,
+    "area_m2": 250000,
+    "assumed_price_eur": 1000000,
+    "enmap_folder": "arkadia2_20240531_mosaic"
+  },
+  {
+    "plot_id": "PLOT_004",
+    "name": "Veroia",
+    "latitude": 40.398697,
+    "longitude": 22.120677,
+    "area_m2": 250000,
+    "assumed_price_eur": 1000000,
+    "enmap_folder": "Veroia-Veroia_20250821_mosaic"
+  }
+]

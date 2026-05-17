@@ -1,0 +1,4 @@
+crop_id,scenario_name,price_multiplier,notes
+kiwis,downside,0.95,Default -5% price sensitivity scenario
+kiwis,base,1.00,Base price scenario
+kiwis,upside,1.05,Default +5% price sensitivity scenario

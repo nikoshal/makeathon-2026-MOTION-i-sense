@@ -1,0 +1,8 @@
+pandas
+numpy
+numpy-financial
+plotly
+rasterio
+gradio
+google-generativeai
+python-dotenv

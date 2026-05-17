@@ -1,0 +1,129 @@
+[
+  {
+    "scenario_id": "SCENARIO_001",
+    "name": "Olives",
+    "category": "traditional_crop",
+    "financial_folder": "olives",
+
+    "suitable_ph_min": 6.0,
+    "suitable_ph_max": 8.5,
+    "water_need_level": "low_to_medium",
+    "water_risk_sensitivity": 0.35,
+    "frost_sensitivity": 0.35,
+    "heat_tolerance": 0.80,
+
+    "expected_revenue_eur_per_ha_per_year": 6000,
+    "expected_opex_eur_per_ha_per_year": 2500,
+    "initial_capex_eur_per_ha": 7000,
+    "years_to_maturity": 5,
+
+    "regulatory_risk_score": 0.15,
+    "market_risk_score": 0.30,
+    "climate_risk_score": 0.35,
+    "capex_risk_score": 0.35,
+
+    "market_demand": "stable",
+    "investor_profile_fit": ["low", "medium"],
+    "sustainability_score": 0.65,
+
+    "notes": "Traditional Mediterranean crop with stable demand, relatively low water requirements and good fit for dry Greek regions. Full production is not immediate, so maturity period matters.",
+    "assumption_confidence": "placeholder"
+  },
+  {
+    "scenario_id": "SCENARIO_004",
+    "name": "Medicinal cannabis",
+    "category": "regulated_high_capex_crop",
+    "financial_folder": "pharmaceutical_cannabis",
+    "suitable_ph_min": 5.5,
+    "suitable_ph_max": 7.0,
+    "water_need_level": "medium_to_high",
+    "water_risk_sensitivity": 0.75,
+    "frost_sensitivity": 0.85,
+    "heat_tolerance": 0.65,
+
+    "expected_revenue_eur_per_ha_per_year": 50000,
+    "expected_opex_eur_per_ha_per_year": 25000,
+    "initial_capex_eur_per_ha": 80000,
+    "years_to_maturity": 1,
+
+    "regulatory_risk_score": 0.90,
+    "market_risk_score": 0.75,
+    "climate_risk_score": 0.45,
+    "capex_risk_score": 0.90,
+
+    "market_demand": "uncertain_high_value",
+    "investor_profile_fit": ["high"],
+    "sustainability_score": 0.45,
+
+    "notes": "Very high theoretical return but also very high licensing, compliance, security, financing and execution risk. Better treated as high-risk scenario.",
+    "assumption_confidence": "placeholder"
+  },
+  {
+  "scenario_id": "SCENARIO_KIWI",
+  "name": "Kiwis",
+  "category": "fruit_crop",
+
+  "financial_folder": "kiwis",
+
+  "suitable_ph_min": 5.5,
+  "suitable_ph_max": 7.5,
+  "water_need_level": "medium_to_high",
+  "water_risk_sensitivity": 0.80,
+  "frost_sensitivity": 0.50,
+  "heat_tolerance": 0.60,
+
+  "expected_revenue_eur_per_ha_per_year": 0,
+  "expected_opex_eur_per_ha_per_year": 0,
+  "initial_capex_eur_per_ha": 0,
+  "years_to_maturity": 5,
+
+  "regulatory_risk_score": 0.25,
+  "market_risk_score": 0.40,
+  "climate_risk_score": 0.65,
+  "capex_risk_score": 0.55,
+
+  "yield_sensitivity_to_suitability": 0.75,
+  "minimum_yield_factor": 0.30,
+
+  "market_demand": "stable_to_growing",
+  "investor_profile_fit": ["medium", "high"],
+  "sustainability_score": 0.55,
+
+  "notes": "Kiwifruit can offer strong commercial returns but is sensitive to water availability, frost risk, heat stress and soil conditions. Financial values are loaded from the crop-specific CSV files.",
+  "assumption_confidence": "placeholder"
+},
+{
+  "scenario_id": "SCENARIO_PISTACHIO",
+  "name": "Pistachio",
+  "category": "nut_crop",
+
+  "financial_folder": "pistachio",
+
+  "suitable_ph_min": 7.0,
+  "suitable_ph_max": 8.2,
+  "water_need_level": "low_to_medium",
+  "water_risk_sensitivity": 0.45,
+  "frost_sensitivity": 0.25,
+  "heat_tolerance": 0.90,
+
+  "expected_revenue_eur_per_ha_per_year": 0,
+  "expected_opex_eur_per_ha_per_year": 0,
+  "initial_capex_eur_per_ha": 0,
+  "years_to_maturity": 7,
+
+  "regulatory_risk_score": 0.20,
+  "market_risk_score": 0.35,
+  "climate_risk_score": 0.55,
+  "capex_risk_score": 0.55,
+
+  "yield_sensitivity_to_suitability": 0.70,
+  "minimum_yield_factor": 0.30,
+
+  "market_demand": "stable_high_value",
+  "investor_profile_fit": ["medium", "high"],
+  "sustainability_score": 0.60,
+
+  "notes": "Pistachio is a high-value nut crop with long establishment period. It is relatively drought-tolerant compared with many fruit crops, but final productivity remains sensitive to soil suitability, irrigation, frost risk and orchard management. Financial values are loaded from the crop-specific CSV files.",
+  "assumption_confidence": "placeholder"
+}
+]

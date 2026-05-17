@@ -1,0 +1,4 @@
+crop_id,scenario_name,price_multiplier,notes
+pistachio,downside,0.95,Default -5% price sensitivity scenario
+pistachio,base,1.00,Base price scenario
+pistachio,upside,1.05,Default +5% price sensitivity scenario

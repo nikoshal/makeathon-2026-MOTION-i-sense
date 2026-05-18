@@ -2,7 +2,7 @@
 
 **Team Motion — Makeathon 2026**
 
-Minotauros Agricultural Intelligence is a Streamlit web app for agricultural land-investment decision support.
+Minotauros Agricultural Intelligence is a web app for agricultural land-investment decision support.
 
 The app compares different land plots and crop investment options using:
 
@@ -212,7 +212,7 @@ pip install -r requirements.txt
 
 ## Environment variables
 
-If using the Gemini chatbot, create a `.env` file or Streamlit secrets file.
+If using the Gemini chatbot, create a `.env` file.
 
 Example `.env`:
 
@@ -231,7 +231,7 @@ Use `.env.example` as a template.
 Run:
 
 ```bash
-streamlit run app.py
+python app.py
 ```
 
 Then open:
@@ -318,7 +318,6 @@ Possible next steps:
 * more crop scenarios
 * portfolio allocation mode
 * automatic PDF report export
-* deployment on `realmotion.tech`
 * improved Gemini chatbot integration
 * financing / loan module
 * after-tax financial model
